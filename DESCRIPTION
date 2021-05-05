@@ -15,14 +15,9 @@ Description: mergm is used to fit ERGMs taking the node heterogeneity into accou
     where the random effects are set as offset parameter.
 Depends: R (>= 3.6)
 License:
-Imports: 
-    network,
-    ergm,
-    mgcv,    
-    Matrix,
-    ggplot2,
-    matrixStats
 Encoding: UTF-8
+URL: https://github.com/kevorks/mergm
+BugReports: https://github.com/kevorks/mergm/issues
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
