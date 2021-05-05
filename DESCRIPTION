@@ -1,0 +1,28 @@
+Package: mergm
+Title: Iterative Estimation of Mixed-ERGMs with Nodal Random Effects
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Sevag",
+           family = "Kevork",
+           role = c("aut", "cre"),
+           email = "Sevag.kevork@stat.uni-muenchen.de",
+           comment = c(ORCID = "0000-0001-6324-4713"))
+Description: mergm is used to fit ERGMs taking the node heterogeneity into account, 
+    the estimation is carried out iteratively. For the estimation i.e. prediction of 
+    nodal random effects, which counts for nodal heterogeneity, we use 
+    pseudo-likelihood estimation techniques and for the estimation of networks 
+    statistics, endogenous or exogenous, we use MCMC-MLE estimation techniques, 
+    where the random effects are set as offset parameter.
+Depends: R (>= 3.6)
+License:
+Imports: 
+    network,
+    ergm,
+    mgcv,    
+    Matrix,
+    ggplot2,
+    matrixStats
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
