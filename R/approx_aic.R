@@ -141,7 +141,7 @@ approx_aic <- function(model,
 
     net.stats <- summary(model$formula)
 
-    require("matrixStats")
+    #require("matrixStats")
     log.kappa.sim <- matrix(nrow=nrow(sim_stats2),ncol=length(coefs))
     log.kappa.sim <- c()
     for(i in 1:nrow(sim_stats2)){
