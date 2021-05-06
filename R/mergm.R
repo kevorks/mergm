@@ -46,8 +46,6 @@
 #' @export
 #'
 mergm <- function(formula, iter) {
-  #require("ergm")
-  #require("mgcv")
 
   terms.vec <- attr(terms.formula(formula), "term.labels")
 
