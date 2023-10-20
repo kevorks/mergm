@@ -20,9 +20,9 @@
 #' @author
 #' Sevag Kevork
 #'
-#' @references Sevag Kevork, Göran Kaeurmann (2019).
+#' @references Kevork, S. and Kaeurmann, G. (2022).
 #' Iterative Estimation of Mixed Exponential Random Graph Models with Nodal
-#' Random Effects.
+#' Random Effects. Network Science 9, 478-498. https://doi.org/10.1017/nws.2021.22.
 #'
 #' @examples
 #' \dontrun{

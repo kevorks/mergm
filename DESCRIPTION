@@ -5,7 +5,7 @@ Authors@R:
     person(given = "Sevag",
            family = "Kevork",
            role = c("aut", "cre"),
-           email = "Sevag.kevork@stat.uni-muenchen.de",
+           email = "me@sevagkevork.net",
            comment = c(ORCID = "0000-0001-6324-4713"))
 Description: mergm is used to fit ERGMs taking the node heterogeneity into account, 
     the estimation is carried out iteratively. For the estimation i.e. prediction of 
